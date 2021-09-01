@@ -3,7 +3,7 @@
 </h1>
 <br>
 <div align="center">
-	<img src="https://raw.githubusercontent.com/Aniket965/Aniket965/master/pacman.svg?sanitize=true" width="200" height="200">
+	<img src="https://www.pngarts.com/files/5/Coder-PNG-High-Quality-Image.png" width="200" height="220">
 </div>
 
 <hr/>
@@ -63,19 +63,12 @@
 
 
 
-<!-- ### Hi there 👋
-
-
-
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
- -->
+```js
+const kukil = {
+    pronouns: "he" | "him",
+    code: [Python, HTML, CSS],
+    askMeAbout: ["Data Science", "tech", "ML", "music", "coffee"],
+    technolgies: ["Datascience", "Machine learning"]       
+    }
+};
+```
