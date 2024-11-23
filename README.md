@@ -1,74 +1,73 @@
-<h1 align="center">
-	<img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+There!+👋;This+is+Kukil....;Nice+to+see+you!😀&center=true&size=30">
-</h1>
-<br>
+# Hi, I'm Kukil Bharadwaj 👋
+## Machine Learning Engineer | AI Enthusiast | Data Science
+
+---
+
 <div align="center">
-	<img src="https://www.pngarts.com/files/5/Coder-PNG-High-Quality-Image.png" width="200" height="220">
+	<img src="https://www.pngarts.com/files/5/Coder-PNG-High-Quality-Image.png" alt="Profile Banner" width="300">
 </div>
 
-<hr/>
+---
 
-<!-- #### 👨🏻‍💻 My Tech Stack:
+### 🚀 About Me
+🔹 Passionate about building AI solutions to solve complex real-world problems.  
+🔹 Experienced in machine learning, deep learning, and data analytics.  
+🔹 Enthusiastic collaborator and advocate for ethical AI practices.
+
+---
+
+### 🧑‍💻 Skills
+
+**Programming Languages & Frameworks**  
+- Python • C/C++ • SQL • MongoDB • Flask
+
+**Developer Tools**  
+- VS Code • Jupyter Notebook • Google Colab • Dialogflow • AWS • GCP • Git & GitHub • Power BI • Databricks • Airflow • Hugging Face
+
+**Libraries**  
+- TensorFlow • PyTorch • Transformers • Diffusers • Scikit-learn • OpenCV • Numpy • Pandas • Matplotlib • Seaborn • NLTK • Pyspark • Mediapipe
+
+---
+
+### 📈 Stats
 <div align="center">
-<img src="https://img.icons8.com/color/48/000000/javascript.png"/>
-<img src="https://img.icons8.com/color/48/000000/react-native.png"/>
-<img src="https://img.icons8.com/color/48/000000/typescript.png"/>
-<img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
-<img src="https://img.icons8.com/color/48/000000/visual-studio.png"/>
-<img src="https://img.icons8.com/color/48/000000/npm.png"/>
-<img src="https://img.icons8.com/color/48/000000/java.png"/>
-<img src="https://img.icons8.com/color/48/000000/c-plus-plus.png"/>
-<img src="https://img.icons8.com/color/48/000000/c.png"/>
-<img src="https://img.icons8.com/color/48/000000/php.png"/>
-<img src="https://img.icons8.com/color/48/000000/mysql.png"/>
-<img src="https://img.icons8.com/color/48/000000/git.png"/>
-<img src="https://img.icons8.com/color/48/000000/github--v1.png"/>
-<img src="https://img.icons8.com/color/48/000000/css3.png"/>
-<img src="https://img.icons8.com/color/48/000000/html-5.png"/>
-<img src="https://img.icons8.com/color/48/000000/sass.png"/>
-<img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
+	<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kukilbharadwaj&theme=react" alt="Kukil's Streak Stats">
+	<br/><br/>
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kukilbharadwaj&layout=compact&theme=react" alt="Top Languages">
 </div>
- -->
 
-### 💬 Connect With me
+---
+
+
+
+### 🌟 Let's Connect
 <p align="center">
-  <a href="https://www.linkedin.com/in/kukil-bharadwaj-7313971a5">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white">
+  <a href="https://www.linkedin.com/in/kukil-bharadwaj" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   &nbsp;
-  <a href="https://instagram.com/kukilbharadwaj">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white">
+  <a href="https://instagram.com/kukilbharadwaj" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram">
   </a>
   &nbsp;
-  <a href="https://twitter.com/kukil_bharadwaj?s=09">
-    <img src="https://img.shields.io/badge/twitter-%230077D4.svg?&style=flat-square&logo=twitter&logoColor=white">
+  <a href="https://twitter.com/kukil_bharadwaj?s=09" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-%230077D4.svg?&style=flat-square&logo=twitter&logoColor=white" alt="Twitter">
   </a>
 </p>
 
-<hr>
+---
 
+### 💡 Tech Toolbox
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kukilbharadwaj&theme=react&layout=compact" />
+  <img src="https://img.icons8.com/color/48/000000/python.png"/>
+  <img src="https://img.icons8.com/color/48/000000/tensorflow.png"/>
+  <img src="https://img.icons8.com/color/48/000000/flask.png"/>
+  <img src="https://img.icons8.com/color/48/000000/mysql.png"/>
+  <img src="https://img.icons8.com/color/48/000000/docker.png"/>
+  <img src="https://img.icons8.com/color/48/000000/github.png"/>
+  <img src="https://img.icons8.com/color/48/000000/google-colab.png" alt="Google Colab"/>
+
 </div>
-<br/>
-<div align="center">
-<img alt="Kukilbharadwaj streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Kukilbharadwaj&theme=react"/>
-</div>
-<br/>
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Kukilbharadwaj&&show_icons=true&theme=react"/>
-</div>
 
-<!-- title_color=00edc6&icon_color=33d900&text_color=daf7dc&bg_color=151515 -->
+---
 
-
-
-```js
-const kukil = {
-    pronouns: "he" | "him",
-    code: [Python, HTML, CSS],
-    askMeAbout: ["Data Science", "tech", "ML", "music", "coffee"],
-    technolgies: ["Datascience", "Machine learning"]       
-    }
-};
-```
