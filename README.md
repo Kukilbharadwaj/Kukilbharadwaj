@@ -249,44 +249,72 @@ sequenceDiagram
 <!-- ══════════════════════════════ PROJECTS ══════════════════════════════ -->
 ## 🚀 &nbsp;Featured Work
 
-<div align="center">
-  <a href="https://github.com/Kukilbharadwaj/AetherCare">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kukilbharadwaj&repo=AetherCare&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=7C3AED" alt="AetherCare"/>
-  </a>
-  <a href="https://github.com/Kukilbharadwaj/FinSage">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kukilbharadwaj&repo=FinSage&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=7C3AED" alt="FinSage"/>
-  </a>
-</div>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<details open>
-<summary><b>🏥 &nbsp;AetherCare — Multimodal Hospital AI Assistant</b> &nbsp;<code>sub-4s p99</code></summary>
+### 🏥 [AetherCare](https://github.com/Kukilbharadwaj/AetherCare)
+**Multimodal hospital AI assistant** — orchestrates appointment scheduling, patient verification, lab reports, admissions, pharmacy and symptom-based doctor discovery through natural conversation.
 
-<br/>
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white"/> <img src="https://img.shields.io/badge/FastMCP-000000?style=flat-square&logo=anthropic&logoColor=white"/> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/> <img src="https://img.shields.io/badge/Guardrails-D32F2F?style=flat-square&logo=shieldsdotio&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
 
-> Production-ready hospital assistant orchestrating live hospital APIs through an agent graph — appointments, symptom-driven doctor discovery, labs, pharmacy and patient support. Voice *and* text.
+`sub-4s p99` &nbsp;·&nbsp; <img src="https://img.shields.io/github/last-commit/Kukilbharadwaj/AetherCare?style=flat-square&color=00E5FF&label=updated"/>
 
-| | |
-|---|---|
-| **Stack** | `LangGraph` · `Pipecat` · `MCP tool-calling` · `Guardrails` · `LangSmith` · `FastAPI` |
-| **Result** | **sub-4s p99** across multi-tool reasoning chains |
-| **Hard part** | Multimodal I/O, tool fan-out, and safety gates on medical intent — a wrong answer here isn't a bad demo, it's a liability |
+</td>
+<td width="50%" valign="top">
 
-</details>
+### 💹 [FinSage](https://github.com/Kukilbharadwaj/FinSage-Multi-Agent-Financial-Intelligence-System)
+**Multi-agent financial intelligence** — real-time insight across stocks, mutual funds, taxation, salary planning, insurance, loans and retirement, grounded in live market data.
+
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white"/> <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square&logo=readthedocs&logoColor=white"/> <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white"/> <img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white"/> <img src="https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square&logo=grafana&logoColor=white"/>
+
+`90% task completion` &nbsp;·&nbsp; <img src="https://img.shields.io/github/last-commit/Kukilbharadwaj/FinSage-Multi-Agent-Financial-Intelligence-System?style=flat-square&color=00E5FF&label=updated"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧰 [WINDLASS](https://github.com/Kukilbharadwaj/WINDLASS)
+**A framework, not a demo** — modular Python framework for production AI apps: LLM agents, RAG pipelines, MCP, tool calling, guardrails, evaluation and observability behind one extensible API.
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Agents-2ea44f?style=flat-square&logo=zapier&logoColor=white"/> <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square&logo=readthedocs&logoColor=white"/> <img src="https://img.shields.io/badge/Evaluation-6E56CF?style=flat-square&logo=testcafe&logoColor=white"/>
+
+`framework` &nbsp;·&nbsp; <img src="https://img.shields.io/github/last-commit/Kukilbharadwaj/WINDLASS?style=flat-square&color=00E5FF&label=updated"/>
+
+</td>
+<td width="50%" valign="top">
+
+### ☎️ [Phonecall Voice Agent](https://github.com/Kukilbharadwaj/Phonecall_Voice_Agent)
+**Real-time voice AI over the phone** — full duplex pipeline with VAD, streaming STT, LLM and TTS, wired to live telephony.
+
+<img src="https://img.shields.io/badge/Pipecat-00E5FF?style=flat-square&logo=audiomack&logoColor=black"/> <img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white"/> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white"/> <img src="https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/Silero%20VAD-4B32C3?style=flat-square&logo=soundcloud&logoColor=white"/>
+
+`real-time` &nbsp;·&nbsp; <img src="https://img.shields.io/github/last-commit/Kukilbharadwaj/Phonecall_Voice_Agent?style=flat-square&color=00E5FF&label=updated"/>
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary><b>💹 &nbsp;FinSage — Multi-Agent Financial Intelligence System</b> &nbsp;<code>90% task completion</code></summary>
+<summary><b>🗂️ &nbsp;More from the lab</b></summary>
 
 <br/>
 
-> LangGraph multi-agent system fusing live market data, financial rule APIs and RAG pipelines via MCP tool-calling for real-time investment intelligence.
-
-| | |
-|---|---|
-| **Stack** | `LangGraph` · `MCP` · `RAG` · `Market Data APIs` · `FastAPI` |
-| **Result** | **90% task-completion accuracy** on multi-step reasoning |
-| **Hard part** | Chaining price → technical indicators → financial context *without inventing a single number* |
+| Repo | What it is |
+|:---|:---|
+| [**AstraQuery**](https://github.com/Kukilbharadwaj/AstraQuery-AI-Powered-Natural-Language-Analytics-Engine) | Multi-agent NL→SQL pipeline — plain-English querying with generation, validation and AI-driven result analysis |
+| [**Vectorless-RAG**](https://github.com/Kukilbharadwaj/Vectorless-RAG) | RAG without embeddings or a vector DB — LLM-powered contextual retrieval |
+| [**CryptoSense**](https://github.com/Kukilbharadwaj/CryptoSense-Multi-Agent-Crypto-Intelligence-System) | Multi-agent crypto intelligence with real-time LLM analysis |
+| [**HybridRAG**](https://github.com/Kukilbharadwaj/HybridRAG) | Hybrid sparse + dense retrieval experiments |
+| [**Medical Report Analyzer**](https://github.com/Kukilbharadwaj/Medical_Report_Analyzer) | Automated medical report analysis, summarization and clinical insight extraction |
+| [**Data-Analysis-Multi-Agent**](https://github.com/Kukilbharadwaj/Data-Analysis-Multi-Agent) | Agentic data-analysis workflows |
+| [**PolicyGen**](https://github.com/Kukilbharadwaj/policy-gen) | The Google GenAI Hackathon Top-5 build — personalized insurance guidance |
+| [**3D Object Detection**](https://github.com/Kukilbharadwaj/3D-OBJECT-DETECTION-USING-YOLO-ALGORITHM-ON-LIDAR-DATASET) · [**SAM2 Zero-Shot**](https://github.com/Kukilbharadwaj/zero-shot-object-detection-using-sam2) · [**Brain Tumor Detection**](https://github.com/Kukilbharadwaj/brain_tumor_detection) | Computer-vision work — LiDAR 3D detection, zero-shot segmentation, medical imaging |
 
 </details>
+
+### 💼 &nbsp;Shipped in Production
 
 <details>
 <summary><b>🌏 &nbsp;Multilingual Hybrid RAG Support Assistant</b> &nbsp;<code>10K+ queries/mo</code> &nbsp;<i>· Arodos</i></summary>
@@ -410,15 +438,11 @@ Designed and evaluated a therapeutic Seq2Seq chatbot enhanced with reinforcement
 ### 🥇 Google GenAI Exchange Hackathon 2024
 **Top 5 out of 200+ teams**
 
-Built an AI-driven conversational agent to make insurance more accessible, for **PolicyBazaar**.
+Built an AI-driven conversational agent to make insurance more accessible, for **PolicyBazaar** — the build lives on as [**PolicyGen**](https://github.com/Kukilbharadwaj/policy-gen).
 
 </td>
 </tr>
 </table>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Kukilbharadwaj&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies"/>
-</div>
 
 <img src="https://raw.githubusercontent.com/Kukilbharadwaj/Kukilbharadwaj/main/assets/divider.svg" width="100%" alt=""/>
 
@@ -427,10 +451,9 @@ Built an AI-driven conversational agent to make insurance more accessible, for *
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Kukilbharadwaj&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=7C3AED&include_all_commits=true&count_private=true" alt="stats"/>
-<img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kukilbharadwaj&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&langs_count=8" alt="top langs"/>
+<img width="94%" src="https://raw.githubusercontent.com/Kukilbharadwaj/Kukilbharadwaj/main/assets/stats.svg" alt="GitHub stats"/>
 
-<br/>
+<br/><br/>
 
 <img width="60%" src="https://streak-stats.demolab.com?user=Kukilbharadwaj&theme=tokyonight&hide_border=true&background=0D1117&ring=00E5FF&fire=7C3AED&currStreakLabel=00E5FF" alt="streak"/>
 
