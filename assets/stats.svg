@@ -51,6 +51,11 @@
     <text class="mono lbl" x="50" y="206">Followers</text>
     <text class="mono val" x="424" y="206" text-anchor="end">10</text>
   </g>
+  <g class="fin" style="animation-delay:0.83s">
+    <circle cx="34" cy="239" r="3" fill="#00E5FF" opacity="0.8"/>
+    <text class="mono lbl" x="50" y="244">Commits (last year)</text>
+    <text class="mono val" x="424" y="244" text-anchor="end">475</text>
+  </g>
 
   <text class="mono hdr" x="500" y="70" fill="#7C3AED">TOP LANGUAGES</text>
   <rect x="500" y="126" width="412" height="16" rx="8" fill="#162034"/>
