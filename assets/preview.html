@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+<title>README asset preview</title>
+<style>
+  body { background:#0D1117; color:#8FA6C4; font-family: ui-monospace, Consolas, monospace;
+         margin:0; padding:32px; }
+  h2 { color:#00E5FF; font-size:13px; letter-spacing:3px; font-weight:600;
+       text-transform:uppercase; margin:38px 0 12px; }
+  img { max-width:100%; display:block; }
+  .note { color:#5A6B85; font-size:12px; margin-bottom:26px; }
+  button { background:#7C3AED; color:#fff; border:0; padding:9px 18px; border-radius:8px;
+           font-family:inherit; font-size:13px; cursor:pointer; }
+</style>
+
+<button onclick="[...document.images].forEach(i=>{const s=i.src;i.src='';i.src=s})">
+  ↻ replay all animations
+</button>
+<div class="note" style="margin-top:14px">Local preview of the custom SVGs used in README.md</div>
+
+<h2>hero.svg</h2>
+<img src="hero.svg">
+
+<h2>divider.svg</h2>
+<img src="divider.svg">
+
+<h2>terminal.svg</h2>
+<img src="terminal.svg">
+
+<h2>metrics.svg</h2>
+<img src="metrics.svg">

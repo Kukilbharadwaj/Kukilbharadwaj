@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 330" width="940" height="330" role="img" aria-label="Agent trace terminal">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F1A"/>
+      <stop offset="100%" stop-color="#0E1626"/>
+    </linearGradient>
+    <linearGradient id="tedge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#2ea44f"/>
+    </linearGradient>
+
+    <clipPath id="l1"><rect x="0" y="0" width="0" height="330"><animate attributeName="width" from="0" to="940" dur="0.9s" begin="0.2s"  fill="freeze"/></rect></clipPath>
+    <clipPath id="l2"><rect x="0" y="0" width="0" height="330"><animate attributeName="width" from="0" to="940" dur="0.7s" begin="1.3s"  fill="freeze"/></rect></clipPath>
+    <clipPath id="l3"><rect x="0" y="0" width="0" height="330"><animate attributeName="width" from="0" to="940" dur="0.9s" begin="2.1s"  fill="freeze"/></rect></clipPath>
+    <clipPath id="l4"><rect x="0" y="0" width="0" height="330"><animate attributeName="width" from="0" to="940" dur="0.7s" begin="3.1s"  fill="freeze"/></rect></clipPath>
+    <clipPath id="l5"><rect x="0" y="0" width="0" height="330"><animate attributeName="width" from="0" to="940" dur="0.8s" begin="3.9s"  fill="freeze"/></rect></clipPath>
+    <clipPath id="l6"><rect x="0" y="0" width="0" height="330"><animate attributeName="width" from="0" to="940" dur="0.7s" begin="4.8s"  fill="freeze"/></rect></clipPath>
+    <clipPath id="l7"><rect x="0" y="0" width="0" height="330"><animate attributeName="width" from="0" to="940" dur="0.6s" begin="5.6s"  fill="freeze"/></rect></clipPath>
+
+    <style>
+      .mono { font-family: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, Consolas, monospace; font-size:14.5px; }
+      .dim  { fill:#5A6B85 } .txt { fill:#C6D4E6 } .cy { fill:#00E5FF } .vi { fill:#A78BFA }
+      .gr   { fill:#2ea44f } .ye { fill:#F5C542 }
+      @keyframes blink { 0%,45%{opacity:1} 50%,100%{opacity:0} }
+      .cur { animation: blink 1s step-end infinite; }
+      @keyframes appear { to { opacity:1 } }
+      .late { opacity:0; animation: appear .01s linear 6.2s forwards }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="938" height="328" rx="14" fill="url(#tbg)" stroke="url(#tedge)" stroke-width="1.4"/>
+  <path d="M1 37 H939" stroke="#1D2A40" stroke-width="1"/>
+  <circle cx="26" cy="19" r="6" fill="#FF5F57"/>
+  <circle cx="46" cy="19" r="6" fill="#FEBC2E"/>
+  <circle cx="66" cy="19" r="6" fill="#28C840"/>
+  <text class="mono dim" x="94" y="24" font-size="12.5">kukil@agent-runtime &#8212; ~/aethercare &#8212; zsh</text>
+
+  <g class="mono">
+    <g clip-path="url(#l1)">
+      <text x="24" y="70"><tspan class="gr">&#10003;</tspan> <tspan class="cy">$</tspan> <tspan class="txt">python -m agent.serve --graph supervisor --stream</tspan></text>
+    </g>
+    <g clip-path="url(#l2)">
+      <text x="24" y="99"><tspan class="dim">[boot ]</tspan> <tspan class="txt">langgraph</tspan> <tspan class="dim">nodes=</tspan><tspan class="vi">5</tspan> <tspan class="dim">tools=</tspan><tspan class="vi">11</tspan> <tspan class="dim">guardrails=</tspan><tspan class="gr">on</tspan></text>
+    </g>
+    <g clip-path="url(#l3)">
+      <text x="24" y="128"><tspan class="dim">[route]</tspan> <tspan class="txt">supervisor</tspan> <tspan class="cy">&#9656;</tspan> <tspan class="vi">retrieval_agent</tspan> <tspan class="dim">conf=</tspan><tspan class="txt">0.93</tspan></text>
+    </g>
+    <g clip-path="url(#l4)">
+      <text x="24" y="157"><tspan class="dim">[rag  ]</tspan> <tspan class="txt">bm25+dense</tspan> <tspan class="cy">&#9656;</tspan> <tspan class="txt">24 cand</tspan> <tspan class="cy">&#9656;</tspan> <tspan class="txt">x-encoder rerank</tspan> <tspan class="cy">&#9656;</tspan> <tspan class="ye">top-5</tspan></text>
+    </g>
+    <g clip-path="url(#l5)">
+      <text x="24" y="186"><tspan class="dim">[mcp  ]</tspan> <tspan class="txt">call</tspan> <tspan class="vi">find_doctor</tspan><tspan class="dim">(specialty=</tspan><tspan class="txt">"cardiology"</tspan><tspan class="dim">)</tspan> <tspan class="gr">200 OK</tspan> <tspan class="dim">412ms</tspan></text>
+    </g>
+    <g clip-path="url(#l6)">
+      <text x="24" y="215"><tspan class="dim">[llm  ]</tspan> <tspan class="txt">tokens</tspan> <tspan class="vi">812</tspan> <tspan class="dim">&#183;</tspan> <tspan class="txt">ttft</tspan> <tspan class="vi">240ms</tspan> <tspan class="dim">&#183;</tspan> <tspan class="txt">p99</tspan> <tspan class="gr">3.8s</tspan></text>
+    </g>
+    <g clip-path="url(#l7)">
+      <text x="24" y="244"><tspan class="dim">[eval ]</tspan> <tspan class="txt">ragas</tspan> <tspan class="dim">faithfulness=</tspan><tspan class="gr">0.94</tspan> <tspan class="dim">relevancy=</tspan><tspan class="gr">0.91</tspan></text>
+    </g>
+
+    <g class="late">
+      <rect x="24" y="264" width="892" height="1" fill="#1D2A40"/>
+      <text x="24" y="292"><tspan class="gr">&#10003; SHIPPED</tspan> <tspan class="dim">&#183; traced to langsmith &#183; 10K+ queries/mo</tspan></text>
+      <rect x="24" y="304" width="0" height="4" rx="2" fill="url(#bar)">
+        <animate attributeName="width" from="0" to="892" dur="1.2s" begin="6.3s" fill="freeze"/>
+      </rect>
+    </g>
+    <rect class="cur" x="24" y="276" width="9" height="16" fill="#00E5FF" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="7.6s" fill="freeze"/>
+    </rect>
+  </g>
+</svg>

@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Kukil Bharadwaj - AI Engineer">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F1A"/>
+      <stop offset="55%" stop-color="#101A2E"/>
+      <stop offset="100%" stop-color="#0D1424"/>
+    </linearGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+
+    <radialGradient id="blobA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#1E2D45" stroke-width="1" stroke-opacity="0.55"/>
+    </pattern>
+
+    <clipPath id="card"><rect x="6" y="6" width="988" height="288" rx="18"/></clipPath>
+    <clipPath id="typeClip"><rect x="52" y="164" width="0" height="26">
+      <animate attributeName="width" from="0" to="560" dur="2.6s" begin="0.7s" fill="freeze" calcMode="linear"/>
+    </rect></clipPath>
+
+    <style>
+      .fu      { opacity:0; animation: fu .9s cubic-bezier(.2,.7,.3,1) forwards; }
+      .d1      { animation-delay:.15s } .d2 { animation-delay:.35s } .d3 { animation-delay:1.6s }
+      @keyframes fu { from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:translateY(0)} }
+      @keyframes pulse { 0%,100%{ r:5; opacity:.95 } 50%{ r:8; opacity:.55 } }
+      @keyframes ring  { 0%{ r:6; opacity:.6 } 100%{ r:18; opacity:0 } }
+      @keyframes drift { 0%,100%{ transform:translate(0,0) } 50%{ transform:translate(-26px,16px) } }
+      @keyframes blink { 0%,45%{ opacity:1 } 50%,100%{ opacity:0 } }
+      .node    { animation: pulse 2.6s ease-in-out infinite; transform-box:fill-box; }
+      .halo    { animation: ring 2.6s ease-out infinite; }
+      .n2 { animation-delay:.3s } .n3 { animation-delay:.6s } .n4 { animation-delay:.9s }
+      .n5 { animation-delay:1.2s } .n6 { animation-delay:1.5s }
+      .blob    { animation: drift 14s ease-in-out infinite; }
+      .cursor  { animation: blink 1.05s step-end infinite; }
+      .mono    { font-family: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect x="6" y="6" width="988" height="288" rx="18" fill="url(#cardBg)"/>
+    <rect x="6" y="6" width="988" height="288" fill="url(#grid)" opacity="0.5"/>
+    <g class="blob"><ellipse cx="880" cy="60" rx="230" ry="150" fill="url(#blobA)"/></g>
+    <g class="blob" style="animation-delay:-7s"><ellipse cx="120" cy="250" rx="220" ry="140" fill="url(#blobB)"/></g>
+  </g>
+
+  <rect x="6" y="6" width="988" height="288" rx="18" fill="none" stroke="url(#edge)" stroke-width="1.4" stroke-opacity="0.85"/>
+  <rect x="6" y="6" width="988" height="288" rx="18" fill="none" stroke="#00E5FF" stroke-width="2"
+        stroke-dasharray="140 2412" stroke-linecap="round" opacity="0.9">
+    <animate attributeName="stroke-dashoffset" from="2552" to="0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- eyebrow -->
+  <g class="fu d1">
+    <circle cx="58" cy="60" r="4" fill="#2ea44f"/>
+    <circle cx="58" cy="60" r="4" fill="#2ea44f" opacity="0.5">
+      <animate attributeName="r" values="4;11;4" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".5;0;.5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text class="mono" x="74" y="65" font-size="12.5" fill="#7D8FA9" letter-spacing="3.4">BENGALURU, IN &#160;&#183;&#160; OPEN TO AI ENGINEER ROLES</text>
+  </g>
+
+  <!-- name -->
+  <g class="fu d2">
+    <text x="50" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="700"
+          fill="#E8EEF7" letter-spacing="1.5">Kukil Bharadwaj</text>
+  </g>
+
+  <rect x="52" y="142" width="0" height="4" rx="2" fill="url(#accent)">
+    <animate attributeName="width" from="0" to="300" dur="1s" begin="0.9s" fill="freeze"/>
+  </rect>
+
+  <!-- typed subtitle -->
+  <g clip-path="url(#typeClip)">
+    <text class="mono" x="52" y="184" font-size="17.5" fill="#8FA6C4">
+      <tspan fill="#00E5FF">&#187;</tspan> AI Engineer &#183; LLM Apps &#183; RAG &#183; Agentic Systems
+    </text>
+  </g>
+  <rect class="cursor" x="52" y="166" width="9" height="22" fill="#00E5FF" opacity="0">
+    <animate attributeName="x" from="52" to="608" dur="2.6s" begin="0.7s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.7s" fill="freeze"/>
+  </rect>
+
+  <!-- right orbit -->
+  <g transform="translate(862,132)" class="fu d2">
+    <circle r="70" fill="none" stroke="#22314B" stroke-width="1"/>
+    <circle r="50" fill="none" stroke="#22314B" stroke-width="1"/>
+    <circle r="30" fill="none" stroke="#22314B" stroke-width="1"/>
+    <circle r="9" fill="#7C3AED" opacity="0.9"/>
+    <circle r="9" fill="#7C3AED" opacity="0.35">
+      <animate attributeName="r" values="9;22;9" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".35;0;.35" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      <circle cx="70" cy="0" r="4.5" fill="#00E5FF"/></g>
+    <g><animateTransform attributeName="transform" type="rotate" from="120" to="480" dur="6s" repeatCount="indefinite"/>
+      <circle cx="50" cy="0" r="3.5" fill="#7C3AED"/></g>
+    <g><animateTransform attributeName="transform" type="rotate" from="300" to="-60" dur="4.5s" repeatCount="indefinite"/>
+      <circle cx="30" cy="0" r="3" fill="#2ea44f"/></g>
+  </g>
+
+  <!-- pipeline -->
+  <g class="fu d3">
+    <line x1="70" y1="242" x2="806" y2="242" stroke="#22314B" stroke-width="1.6"/>
+    <line x1="70" y1="242" x2="806" y2="242" stroke="url(#accent)" stroke-width="1.6"
+          stroke-dasharray="6 10" stroke-linecap="round" opacity="0.7">
+      <animate attributeName="stroke-dashoffset" from="64" to="0" dur="1.6s" repeatCount="indefinite"/>
+    </line>
+
+    <circle r="4.5" fill="#00E5FF">
+      <animate attributeName="cx" values="70;806" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="242;242" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <g fill="#00E5FF">
+      <circle class="node"    cx="70"  cy="242" r="5"/>
+      <circle class="node n2" cx="217" cy="242" r="5"/>
+      <circle class="node n3" cx="364" cy="242" r="5"/>
+      <circle class="node n4" cx="511" cy="242" r="5"/>
+      <circle class="node n5" cx="658" cy="242" r="5"/>
+      <circle class="node n6" cx="806" cy="242" r="5" fill="#2ea44f"/>
+    </g>
+
+    <g class="mono" font-size="10.5" fill="#6F82A0" letter-spacing="2.2" text-anchor="middle">
+      <text x="70"  y="270">QUERY</text>
+      <text x="217" y="270">RETRIEVE</text>
+      <text x="364" y="270">RERANK</text>
+      <text x="511" y="270">REASON</text>
+      <text x="658" y="270">ACT</text>
+      <text x="806" y="270" fill="#2ea44f">EVALUATE</text>
+    </g>
+  </g>
+</svg>
